@@ -1,12 +1,13 @@
 {
-	"name": "crud-clubs",
+	"name": "api-clubs",
 	"version": "1.0.0",
-	"description": "crud",
+	"description": "API REST",
 	"main": "index.js",
 	"author": "Juan Lemes",
-	"license": "ISC",
+	"license": "MIT",
+	"type": "module",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"dev": "nodemon index.js"
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.33.0",
